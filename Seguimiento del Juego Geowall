@@ -1,0 +1,33 @@
+Hemos obtenido que se
+
+La mecanica del juego es sencilla, tenemos un clase principal la game, en la cual utilizaremos de base principal,
+	Desde la clase principal, creamos los distintos objetos( las clases) que utilizaremos.
+	Tenemos la clase Usuario:
+		Ojo:
+			Cada vez que pongamos un atributo nuevo, tendremos que borrar el archivo de configuracion local.
+		Controla: 
+			Este archivo tiene el control de guardar y leer el archivo de configuracion local.
+	
+	Tenemos la clase Pantalla, la cual hemos echo sera el padre de nuestros distintos juegos u pantallas;;
+						
+		Haremos distintas pantallas;
+			Ui:
+				En la cual se encuentra el menu principal o el menu de opciones.
+			PantallaScene:
+				En la cual se encuentra el juego que desarrollamos.
+			PantallaOpciones:
+				En el cual controlaremos la Configuracion de los jugadores
+					-Cambio de nick;
+					-//posibilidad de conseguir intentos Diarios:
+					-Sonido
+					-Puntuacion max;
+					-gmail
+			Pantalla Max Puntuacion; (**SE REQUIERE RED**)
+				Nos muestra la puntuacion maxima- y guarda nuestro registro en red y 
+				nos da un id con el cual nos identificaray guardare online.
+
+	
+
+					 
+				
+	
